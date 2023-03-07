@@ -8,12 +8,15 @@ import { CocktailShowComponent } from './cocktail-show/cocktail-show.component';
 import { IngredientShowComponent } from './ingredient-show/ingredient-show.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
-import {FormsModule} from "@angular/forms";
-import {HttpClientModule} from "@angular/common/http";
+import { FormsModule } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { MentionsLegalesComponent } from "./mentions-legales/mentions-legales.component";
-import {CocktailsDetailsComponent} from "./cocktails-details/cocktails-details.component";
+import { CocktailsDetailsComponent } from "./cocktails-details/cocktails-details.component";
+import { QuiSommesNousComponent } from "./qui-sommes-nous/qui-sommes-nous.component";
+import { CommunauteComponent } from "./communaute/communaute.component";
+
 
 @NgModule({
   declarations: [
@@ -27,6 +30,8 @@ import {CocktailsDetailsComponent} from "./cocktails-details/cocktails-details.c
     ContactComponent,
     MentionsLegalesComponent,
     CocktailsDetailsComponent,
+    QuiSommesNousComponent,
+    CommunauteComponent,
   ],
   imports: [
     BrowserModule,

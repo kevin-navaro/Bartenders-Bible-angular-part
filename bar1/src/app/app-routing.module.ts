@@ -5,6 +5,10 @@ import {ContactComponent} from "./contact/contact.component";
 import {MentionsLegalesComponent} from "./mentions-legales/mentions-legales.component";
 import {CocktailShowComponent} from "./cocktail-show/cocktail-show.component";
 import {CocktailsDetailsComponent} from "./cocktails-details/cocktails-details.component";
+import {IngredientShowComponent} from "./ingredient-show/ingredient-show.component";
+import {LoginComponent} from "./login/login.component";
+import {QuiSommesNousComponent} from "./qui-sommes-nous/qui-sommes-nous.component";
+import {CommunauteComponent} from "./communaute/communaute.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -12,6 +16,10 @@ const routes: Routes = [
   { path: 'mentions_legales', component: MentionsLegalesComponent },
   { path: 'cocktail_show', component: CocktailShowComponent },
   { path: 'cocktail_show/:details', component: CocktailsDetailsComponent },
+  { path: 'ingredient_show', component: IngredientShowComponent},
+  { path: 'login', component: LoginComponent},
+  { path: 'qui_sommes_nous', component: QuiSommesNousComponent},
+  { path: 'communaute', component: CommunauteComponent},
   { path: '**', component: HomeComponent },
 ];
 
