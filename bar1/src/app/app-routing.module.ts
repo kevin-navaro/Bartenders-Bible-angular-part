@@ -9,6 +9,7 @@ import {IngredientShowComponent} from "./ingredient-show/ingredient-show.compone
 import {LoginComponent} from "./login/login.component";
 import {QuiSommesNousComponent} from "./qui-sommes-nous/qui-sommes-nous.component";
 import {CommunauteComponent} from "./communaute/communaute.component";
+import {MojitoComponent} from "./mojito/mojito.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'qui_sommes_nous', component: QuiSommesNousComponent},
   { path: 'communaute', component: CommunauteComponent},
+  { path: 'mojito', component: MojitoComponent},
   { path: '**', component: HomeComponent },
 ];
 

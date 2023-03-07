@@ -16,6 +16,7 @@ import { MentionsLegalesComponent } from "./mentions-legales/mentions-legales.co
 import { CocktailsDetailsComponent } from "./cocktails-details/cocktails-details.component";
 import { QuiSommesNousComponent } from "./qui-sommes-nous/qui-sommes-nous.component";
 import { CommunauteComponent } from "./communaute/communaute.component";
+import { MojitoComponent } from './mojito/mojito.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import { CommunauteComponent } from "./communaute/communaute.component";
     CocktailsDetailsComponent,
     QuiSommesNousComponent,
     CommunauteComponent,
+    MojitoComponent,
   ],
   imports: [
     BrowserModule,
