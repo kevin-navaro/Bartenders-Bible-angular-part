@@ -85,3 +85,26 @@
   font-size: 1em;
   margin: auto;
 }
+
+.formulaire
+{
+  font-size: 1em;
+  margin: 1em auto;
+  background-image: url("../assets/body/contact_us.jpg");
+  height: 400px;
+  width: 700px;
+  position: relative;
+  display: grid;
+  justify-content: left;
+}
+
+.commu
+{
+  position: relative;
+  // max-width: 10%;
+  // max-height: 10%;
+  // background-image: url("../assets/body/communaute.png");
+  height: auto;
+  width: auto;
+  display: flex;
+}
