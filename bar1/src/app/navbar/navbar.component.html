@@ -1,10 +1,10 @@
 
 <nav class="navbar">
-  <div class="row">
+  <div class="container-fluid">
     <div class="col-3">
       <a routerLink="/home">
-        <img src="../../assets/navbar/cocktail.png" alt="Cocktail">
-        <img src="../../assets/navbar/bible.png" alt="Bible">
+        <img src="../../assets/navbar/cocktail.png" alt="Cocktail" class="img-home">
+        <img src="../../assets/navbar/bible.png" alt="Bible" class="img-home">
       </a>
     </div>
     <div class="col-6">
@@ -12,10 +12,10 @@
         The Bartender's Bible
       </p>
     </div>
-    <div class="col-3 d-flex justify-content-end img-fluid">
-      <a routerLink="/mon_compte">
-        <img src="../../assets/navbar/bouton_mon_compte.png" alt="compte">
-      </a>
+    <div class="col-3 d-flex justify-content-end">
+        <a routerLink="/login" class="btn btn-primary">
+          Mon compte
+        </a>
     </div>
   </div>
 </nav>

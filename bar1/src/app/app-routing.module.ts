@@ -10,6 +10,11 @@ import {LoginComponent} from "./login/login.component";
 import {QuiSommesNousComponent} from "./qui-sommes-nous/qui-sommes-nous.component";
 import {CommunauteComponent} from "./communaute/communaute.component";
 import {MojitoComponent} from "./mojito/mojito.component";
+import {CubaLibreComponent} from "./cuba-libre/cuba-libre.component";
+import {GinTonicComponent} from "./gin-tonic/gin-tonic.component";
+import {SexOnTheBeachSoftComponent} from "./sex-on-the-beach-soft/sex-on-the-beach-soft.component";
+import {SeaAndSunComponent} from "./sea-and-sun/sea-and-sun.component";
+import {FunColaComponent} from "./fun-cola/fun-cola.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,6 +27,11 @@ const routes: Routes = [
   { path: 'qui_sommes_nous', component: QuiSommesNousComponent},
   { path: 'communaute', component: CommunauteComponent},
   { path: 'mojito', component: MojitoComponent},
+  { path: 'cuba_libre', component: CubaLibreComponent},
+  { path: 'gin_tonic', component: GinTonicComponent},
+  { path: 'sex_on_the_beach_soft', component: SexOnTheBeachSoftComponent},
+  { path: 'sea_and_sun', component: SeaAndSunComponent},
+  { path: 'fun_cola', component: FunColaComponent},
   { path: '**', component: HomeComponent },
 ];
 

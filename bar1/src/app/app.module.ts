@@ -17,6 +17,14 @@ import { CocktailsDetailsComponent } from "./cocktails-details/cocktails-details
 import { QuiSommesNousComponent } from "./qui-sommes-nous/qui-sommes-nous.component";
 import { CommunauteComponent } from "./communaute/communaute.component";
 import { MojitoComponent } from './mojito/mojito.component';
+import { CubaLibreComponent } from './cuba-libre/cuba-libre.component';
+import { GinTonicComponent } from './gin-tonic/gin-tonic.component';
+import { SexOnTheBeachSoftComponent } from './sex-on-the-beach-soft/sex-on-the-beach-soft.component';
+import { SeaAndSunComponent } from './sea-and-sun/sea-and-sun.component';
+import { FunColaComponent } from './fun-cola/fun-cola.component';
+import { FavorisComponent } from './favoris/favoris.component';
+import { MesNotesComponent } from './mes-notes/mes-notes.component';
+import { MesRecettesComponent } from './mes-recettes/mes-recettes.component';
 
 
 @NgModule({
@@ -34,6 +42,14 @@ import { MojitoComponent } from './mojito/mojito.component';
     QuiSommesNousComponent,
     CommunauteComponent,
     MojitoComponent,
+    CubaLibreComponent,
+    GinTonicComponent,
+    SexOnTheBeachSoftComponent,
+    SeaAndSunComponent,
+    FunColaComponent,
+    FavorisComponent,
+    MesNotesComponent,
+    MesRecettesComponent,
   ],
   imports: [
     BrowserModule,

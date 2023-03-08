@@ -26,7 +26,6 @@
     right: 15%;
     top: 15%;
     bottom: 15%;
-    //background-color: $background-infos;
     border-radius: 1em;
     padding: 15em 20em;
     font-weight: bold;
@@ -46,8 +45,6 @@
 .cocktails-cards
 {
   padding: 0.8em 0.4em;
-  //height: 15%;
-  //width: 15%;
   .container-cocktails {
     background-color: $background-infos;
     border-radius: 1em;
@@ -88,33 +85,98 @@
 
 .formulaire
 {
-  font-size: 1em;
+  font-size: 2em;
   margin: 1em auto;
   background-image: url("../assets/body/contact_us.jpg");
-  height: 400px;
-  width: 700px;
+  height: auto;
+  width: auto;
   position: relative;
   display: grid;
-  justify-content: left;
+  justify-content: center;
+}
+
+.formulaireco
+{
+  font-size: 2em;
+  margin: 2em;
+  height: auto;
+  width: auto;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  border-radius: 1em;
 }
 
 .commu
 {
   position: relative;
-  // max-width: 10%;
-  // max-height: 10%;
-  // background-image: url("../assets/body/communaute.png");
   height: auto;
   width: auto;
   display: flex;
 }
 
+.container_ing
+{
+  display: grid;
+  margin: 1em auto;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+
 .mojito
 {
   position: relative;
-  // background-image: url("../assets/body/mojito.jpg");
-  // height: auto;
-  // width: auto;
-  // display: flex;
   margin: 1em auto;
+  height: 200px;
+  width: 300px;
+  display: flex;
+}
+
+.cuba_libre
+{
+  position: relative;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin: 1em auto;
+}
+
+.gin_tonic
+{
+  position: relative;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin: 1em auto;
+}
+
+.sex_beach
+{
+  position: relative;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin: 1em auto;
+}
+
+.seasun
+{
+  position: relative;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin: 1em auto;
+}
+
+.funcola
+{
+  position: relative;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  margin: 1em auto;
+}
+
+.pink {
+  background-color: deeppink;
 }
