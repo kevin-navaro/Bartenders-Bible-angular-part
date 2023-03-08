@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {Recipes} from "../../models/recipes";
 
 @Component({
   selector: 'app-cocktail-show',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./cocktail-show.component.scss']
 })
 export class CocktailShowComponent {
+
+  @Input()
+  recipe: Recipes|undefined;
 
 }

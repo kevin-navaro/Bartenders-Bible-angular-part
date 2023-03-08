@@ -15,161 +15,22 @@
   </h2>
 
   <div class="row">
-    <div class="col-4 cocktails-cards">
-      <!-- <a routerLink="/cocktail_show/{{details}}"> -->
-      <a routerLink="/mojito">
-        <div class="container-cocktails">
-          <div class="d-flex justify-content-around">
-            <h1 class="ms-3">
-              MOJITO
-            </h1>
-            <img src="../../assets/body/avec_alcool.png" alt="a_alcool" class="w-25">
-          </div>
-          <img src="../../assets/body/mojito.jpg" alt="mojito" class="img-fluid">
-        </div>
-      </a>
-
-    </div>
-    <div class="col-4 cocktails-cards">
-      <a routerLink="/cuba_libre">
-        <div class="container-cocktails">
-          <div class="d-flex justify-content-around">
-            <h1 class="ms-3">
-              CUBA LIBRE
-            </h1>
-            <img src="../../assets/body/avec_alcool.png" alt="a_alcool" class="w-25">
-          </div>
-          <img src="../../assets/body/cuba_libre.png" alt="cuba_libre" class="img-fluid">
-        </div>
-      </a>
-    </div>
-
-
-    <div class="col-4 cocktails-cards">
-      <a routerLink="/gin_tonic">
-        <div class="container-cocktails">
-          <div class="d-flex justify-content-around">
-            <h1 class="ms-3">
-              GIN TONIC
-            </h1>
-            <img src="../../assets/body/avec_alcool.png" alt="a_alcool" class="w-25">
-          </div>
-          <img src="../../assets/body/gin_tonic.jpg" alt="gin_tonic" class="img-fluid">
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-4 cocktails-cards">
-      <a routerLink="/sex_on_the_beach_soft">
-        <div class="container-cocktails">
-          <div class="d-flex justify-content-around">
-            <h1 class="ms-3">
-              SEX ON THE BEACH SOFT
-            </h1>
-            <img src="../../assets/body/sans_alcool.png" alt="s_alcool" class="w-25">
-          </div>
-          <img src="../../assets/body/sex-on-the-beach.jpg" alt="sex_on_the_beach" class="img-fluid">
-        </div>
-      </a>
-    </div>
-    <div class="col-4 cocktails-cards">
-      <a routerLink="/sea_and_sun">
-        <div class="container-cocktails">
-          <div class="d-flex justify-content-around">
-            <h1 class="ms-3">
-              SEA AND SUN
-            </h1>
-            <img src="../../assets/body/sans_alcool.png" alt="s_alcool" class="w-25">
-          </div>
-          <img src="../../assets/body/sea_and_sun.jpg" alt="sea_and_sun" class="img-fluid">
-        </div>
-      </a>
-    </div>
-    <div class="col-4 cocktails-cards">
-      <a routerLink="/fun_cola">
-        <div class="container-cocktails">
-          <div class="d-flex justify-content-around">
-            <h1 class="ms-3">
-              FUN COLA
-            </h1>
-            <img src="../../assets/body/sans_alcool.png" alt="s_alcool" class="w-25">
-          </div>
-          <img src="../../assets/body/fun_cola.png" alt="fun_cola" class="img-fluid">
-        </div>
-      </a>
+    <div class="col-4 cocktails-cards" *ngFor="let cocktail of cocktails">
+      <app-cocktail-show [recipe]="cocktail"></app-cocktail-show>
     </div>
   </div>
 
 
-  <div class="container_ing">
+  <div class="container">
     <h2 class="cocktail-title">
       Les ingrédients les plus utilisés
     </h2>
-    <div class="container">
-      <div class="col-2 cocktails-cards">
-        <div class="container-cocktails">
-          <div class="space-between">
-            <h1 class="ms-4">
-              RHUM
-            </h1>
-            <img src="../../assets/body/rhum.jpg" alt="rhum" class="img-fluid">
-          </div>
-          <div class="space-between">
-              <h1 class="ms-4">
-                VODKA
-              </h1>
-              <img src="../../assets/body/vodka.jpg" alt="vodka" class="img-fluid">
-          </div>
-          <div class="space-between">
-            <h1 class="ms-4">
-              WHISKY
-            </h1>
-            <img src="../../assets/body/whisky.jpg" alt="whisky" class="img-fluid">
-          </div>
 
-          <div class="space-between">
-            <h1 class="ms-4">
-              COCA COLA
-            </h1>
-            <img src="../../assets/body/coca_cola.png" alt="coca_cola" class="img-fluid">
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-3 cocktails-cards" *ngFor="let ingredient of ingredients">
+        <app-ingredient-show [ingredient]="ingredient"></app-ingredient-show>
       </div>
     </div>
   </div>
 
-  <div class="footer">
-    <div class="d-flex justify-content-between">
-      <a routerLink="/mentions_legales" class="footer_texte2"> MENTIONS LEGALES </a>
-      <br>
-      <a routerLink="/communaute" class="footer_texte2"> COMMUNAUTE </a>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <a href="https://www.facebook.com/">
-        <img src="../../assets/footer/facebook.png" alt="facebook" class="img-fluid">
-      </a> &nbsp;&nbsp;
-
-      <a href="https://www.instagram.com/">
-        <img src="../../assets/footer/instagram.png" alt="instagram" class="img-fluid">
-      </a> &nbsp;&nbsp;
-        <a href="https://www.snapchat.com">
-          <img src="../../assets/footer/snapchat.png" alt="snapchat" class="img-fluid">
-        </a> &nbsp;&nbsp;
-          <a href="https://www.tiktok.com">
-            <img src="../../assets/footer/tiktok.png" alt="tiktok" class="img-fluid">
-          </a> &nbsp;&nbsp;
-            <a href="https://twitter.com">
-              <img src="../../assets/footer/twitter.png" alt="twitter" class="img-fluid">
-            </a> &nbsp;&nbsp;
-    </div>
-
-    <div class="d-flex justify-content-between">
-        <a routerLink="/contact" class="footer_texte2"> CONTACT </a>
-
-      <a routerLink="/qui_sommes_nous" class="footer_texte2"> QUI SOMMES NOUS </a>
-    </div>
-  </div>
 </div>
